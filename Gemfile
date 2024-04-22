@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 
-gem "jekyll-default-layout"
 
 
 gem "jekyll", "~> 4.3.3" # installed by `gem jekyll`
@@ -9,3 +8,5 @@ gem "jekyll", "~> 4.3.3" # installed by `gem jekyll`
 
 gem "just-the-docs", "0.8.2" # pinned to the current release
 # gem "just-the-docs"        # always download the latest release
+
+gem "jekyll-default-layout"
