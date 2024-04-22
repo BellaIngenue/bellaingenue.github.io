@@ -43,7 +43,7 @@ aux_links_new_tab: true
 
 heading_anchors: true
 
-footer_content: "Copyright &copy; Siena Rivera. <a href=\"https://github.com/BellaIngenue/bellaingenue.github.io/blob/main/LICENSE\" >MIT license.</a>"
+footer_content: "Copyright &copy 2024; Siena Rivera. <a href=\"https://github.com/BellaIngenue/bellaingenue.github.io/blob/main/LICENSE\" >MIT license.</a>"
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
