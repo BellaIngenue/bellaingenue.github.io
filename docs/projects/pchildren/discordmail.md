@@ -26,25 +26,25 @@ To use this bot, make sure to first make a webhook in the server you are connect
 ### Steps To Reproduce:
 1. Create a Webhook in your Discord Server
 	2. Go to Settings -> Integrations -> Webhooks
-![Webhook Integration](/assets/images/image1.png)
+![Webhook Integration](./assets/images/image1.png)
 	3. View Webhooks -> New Webhooks
-![New Webhook](/assets/images/image2.png)
+![New Webhook](./assets/images/image2.png)
 	4. Select a Channel from your Server, and then Copy Webhook URL (this is important)
-![Copy Webhook URL](/assets/images/image3.png)
+![Copy Webhook URL](./assets/images/image3.png)
 2. Go to [Google Apps Script](https://script.google.com/home)
 	3. Click on Create a New Project -> Name it whatever you want
-![Create a New Project](/assets/images/image4.png)
+![Create a New Project](./assets/images/image4.png)
 	4. Click on the Cog Icon to to to Project Settings
-![Project Settings](/assets/images/image5.png)
+![Project Settings](./assets/images/image5.png)
 	5. Scroll down to Script Properties -> Add Script Property
-![Add Script Property](/assets/images/image6.png)
+![Add Script Property](./assets/images/image6.png)
 	6. Add two Properties -> TOKEN and WEBHOOKS (spell it the same way)
-![TOKEN and WEBHOOKS](/assets/images/image7.png)
+![TOKEN and WEBHOOKS](./assets/images/image7.png)
 3. Click on the Clock to Setup Triggers (we only need 1, even for 2 functions)
 	4. Click Add Trigger
-![Add Trigger](/assets/images/image8.png)
+![Add Trigger](./assets/images/image8.png)
 	5. Make it look the exact same as this image below... (Or change the time if applicable)
-![Edit Trigger](/assets/images/image9.png)
+![Edit Trigger](./assets/images/image9.png)
 4. CODING TIME!!!!!! Please refer to the code below...
 	5. Paste your channel in `const channel= '📫mail';` 
 	6. Notice `const checkSpan = 60;` 
