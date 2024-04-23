@@ -2,6 +2,7 @@
 title: Discord Mail
 layout: default
 parent: Projects
+nav_order: 1
 ---
 
 # Discord Mail!

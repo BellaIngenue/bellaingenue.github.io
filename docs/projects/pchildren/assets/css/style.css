@@ -1,0 +1,24 @@
+body{
+    background-image: url("/assets/images/sunny.jpeg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+#playbutton{
+    width: 200px;
+    height: 50px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: hsl(59, 67%, 55%); 
+    
+}
+#playbutton:hover {
+    background-color: hsl(54, 63%, 41%); /* Darker background color on hover */
+  }

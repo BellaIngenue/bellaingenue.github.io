@@ -1,0 +1,16 @@
+
+#playbutton{
+    width: 200px;
+    height: 50px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: hsl(205, 86%, 63%); 
+    
+}
+#playbutton:hover {
+    background-color: hsl(215, 69%, 29%); /* Darker background color on hover */
+  }
