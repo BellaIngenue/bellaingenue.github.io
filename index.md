@@ -1,6 +1,17 @@
 ---
 title: Home Page
 layout: home
+nav_order: 1
+---
+# Siena R | Github Portfolio HomePage
+{:.no_toc}
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 ---
 
 # Siena R | Github Porfolio and Website
@@ -16,3 +27,12 @@ Welcome to my Github Portfolio and where I will publish my work and projects tha
  - Your Journey: A simple game made with Twine
  - Art Portfolio Information: More Information on my Art Porfolio can be found [here](https://github.com/BellaIngenue/AngelDemonArtwork)
  - MISC Projects: BlueSkies Minecraft, Google Sites, Other Small Games
+
+
+## About the Portfolio
+
+Siena's Portfolio &copy; 2024-{{ "now" | date: "%Y" }} by [Siena R](https://sienasrivera.website).
+
+### License
+
+Just the Docs is distributed by an [MIT license](https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE).

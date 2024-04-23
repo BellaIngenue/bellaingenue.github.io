@@ -3,6 +3,7 @@ layout: about
 title: About
 description: >-
     About Siena R and Github
+nav_order: 2
 ---
 
 # About Me!
@@ -53,13 +54,13 @@ Come with me on this adventure, and let us get to know each other better!!
 
 | Education Assistant |  Birch Aquarium at Scripps | UC San Diego |
 | --- | --- | --- |
-| Start: November 2021 | End: October 2022 | 
+| Start: November 2021 | End: October 2022 | Education Department |
 
 Hired as an Education Assistant, my role was to serve guests an amazing experience by teaching them all I knew about the beautiful animals and plants that lived in the Museum. I brought all I knew to the table and was able to be as enchanting and charismatic as possible. Winning the hearts of guests and children was my specialty. I worked on learning about sea life, aquatic animals and how to work with guests of all ages. There was much to learn and many procedures to get accustomed to.  I brought patience, kindness and leadership with me to impress both my coworkers and guests. I was known for my bubbly attitude and helped guests have a fun time.
 
 | Senior Mathematics Tutor | Mathematics Lab | San Diego Miramar College  |
 | --- | --- | --- |
-| Start: January 2020 | End: October 2020  | 
+| Start: January 2020 | End: October 2020  | Mathematics Department |
 
 Hired as a Mathematics Tutor in the Math Lab at my school. Worked with students from my college on different math courses. Learned to practice patience and empathy with those I worked with. This position started out in-person and then eventually moved online due to the COVID-19 pandemic. I commonly used Howard Gardner's Theory of Multiple Intelligences to understand and work with students from all different intelligence types. Feel free to message me anytime to learn more. I love talking about Psychology!
 
