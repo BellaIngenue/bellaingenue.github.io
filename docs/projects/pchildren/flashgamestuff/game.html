@@ -5,37 +5,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="Flash Game">
+    <meta name="title" content="Siena's Flash Game">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="English">
-    <title>Flash Game</title>
+    <title>Siena's Flash Game</title>
     <script src="/assets/js/main.js"></script>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <noscript>Your browser doesn't have JavaScript enabled. Please enable JavaScript or switch to a browser that
         supports it.</noscript>
 </head>
 
 <body>
-    <div id='ruffle' class="gameloc"></div>
-    <script src="/assets/js/ruffle.js"></script>
-    <script>
-        var swfobject = {};
+    <center>
+        <div class="nav">
+            <ul>
+                <li class="home"><a href="https://www.bellaingenue.github.io/">HOME</a> </li>
+                <li class="contact"> <a href="mailto:sienasrivera@gmail.com">CONTACT</a> </li>
+                <li>
+                    <img class="logo" src="/assets/images/pfp.jpeg" alt="Logo">
+                </li>
+                <li class="instagram"> <a href="https://www.instagram.com/sienasrivera/">INSTAGRAM</a> </li>
+                <li class="github"> <a href="https://github.com/BellaIngenue">GITHUB</a> </li>
+            </ul>
+        </div>
+    </center>
+    <div class="header">
+        <center>
+            <h1>Make sure to download the Ruffle extension here to play:</h1>
+            <button id="rufflebutton" onclick="window.location.href='https://ruffle.rs/downloads/';">DOWNLOAD
+                ME!!!</button>
+        </center>
+    </div>
+    <div class="main">
+        <div id='ruffle' class="gameloc"></div>
+        <script src="./assets/js/ruffle.js"></script>
+        <script>
+            var swfobject = { ua: { pv: {} }, hasFlashPlayerVersion() { return true } };
 
-        swfobject.embedSWF = function (url, cont, width, height) {
-            var ruffle = window.RufflePlayer.newest(),
-                player = Object.assign(document.getElementById(cont).appendChild(ruffle.createPlayer()), {
-                    width: width,
-                    height: height,
-                    style: 'width: ' + width + 'px; height: ' + height + 'px',
-                });
+            swfobject.embedSWF = function (url, cont, width, height) {
+                var ruffle = window.RufflePlayer.newest(),
+                    player = Object.assign(document.getElementById(cont).appendChild(ruffle.createPlayer()), {
+                        width: width,
+                        height: height,
+                        style: 'width: ' + width + 'px; height: ' + height + 'px',
+                    });
 
-            player.load({ url: url });
-        }
+                player.load({ url: url });
+            }
 
-        swfobject.embedSWF('flashgame.swf', 'ruffle', 500, 500);
-    </script>
+            swfobject.embedSWF('/assets/flashgame.swf', 'ruffle', 500, 500);
+        </script>
 
-
+    </div>
 
 </body>
 
