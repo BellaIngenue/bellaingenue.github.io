@@ -12,3 +12,10 @@ Welcome to my Github Portfolio and where I will publish my work and projects tha
  - Art Portfolio Information: More Information on my Art Porfolio can be found [here](https://github.com/BellaIngenue/AngelDemonArtwork)
  - MISC Projects: BlueSkies Minecraft, Google Sites, Other Small Games
 
+## About the Portfolio
+
+Siena's Portfolio &copy; 2024-{{ "now" | date: "%Y" }} by [Siena R](https://sienasrivera.website).
+
+### License
+
+Siena's Portfolio and Just the Docs are distributed by an [MIT license](https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE).

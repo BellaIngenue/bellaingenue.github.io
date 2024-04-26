@@ -19,8 +19,11 @@ nav_order: 1
 # Discord Mail
 A small webhook that connects Gmail (only Gmail) to Discord. This uses the Google Apps Scripts and Google Analytics. 
 
-{: .note }
+{: .important }
 To use this bot, make sure to first make a webhook in the server you are connecting to. This could be in any channel, as long as you have access to it (and the webhooks themselves). I would recommend only using this webhook if you know that it is safe to use. NEVER share the webhook keys with anyone. 
+
+If you're interested in the code, use the TOC to get to the bottom of the page to locate the code. Make sure to change any differences (the channel names/ids) and you should be good to go!!
+
 
 
 ## Information about the Project

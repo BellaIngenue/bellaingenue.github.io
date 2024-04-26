@@ -35,4 +35,4 @@ Siena's Portfolio &copy; 2024-{{ "now" | date: "%Y" }} by [Siena R](https://sien
 
 ### License
 
-Just the Docs is distributed by an [MIT license](https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE).
+Siena's Portfolio and Just the Docs are distributed by an [MIT license](https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE).

@@ -90,3 +90,14 @@ compress_html:
   profile: false
   # ignore:
   #   envs: all
+
+callouts:
+  warning:
+    title: Warning
+    color: red
+  note:
+    title: Note
+    color: grey-dk
+  important:
+    title: Important!
+    color: blue

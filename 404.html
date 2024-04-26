@@ -1,35 +1,43 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-1752YPLP7H"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
 
-      gtag("config", "G-1752YPLP7H");
-    </script>
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1752YPLP7H"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link type="text/css" rel="stylesheet" href="/assets/css/404.css" />
-    <title>404</title>
-  </head>
-  <body>
-    <div id="tsparticles"></div>
-    <div id="container">
-      <h1>Oops! How did you get here?</h1>
-      <a id="back-button" href="https://bellaingenue.github.io/docs/projects/pchildren/discordmail/">Take Me Back!</a>
+    gtag("config", "G-1752YPLP7H");
+  </script>
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link type="text/css" rel="stylesheet" href="/assets/css/404.css" />
+  <title>404</title>
+</head>
+
+<body>
+
+  <div id="background"></div>
+  <div class="top">
+    <h1>404</h1>
+    <h3>page not found</h3>
+    <div class="crying-emoji">😭</div>
+    <div class="shadow"></div>
+    <div class="bottom">
+      <p>Oops! How did you get here?</p>
+      <div class="buttons">
+        <button class="btn" onclick="history.back();">Back</button>
+        <button class="btn" onclick="window.location.href='https://bellaingenue.github.io/';">Home</button>
+      </div>
     </div>
+  </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
-    <script type="text/javascript" src="/assets/js/404.js"></script>
-  </body>
+</body>
+
 </html>
