@@ -27,6 +27,20 @@ Welcome to my Github Portfolio and where I will publish my work and projects tha
 - [Art Portfolio Information🎨](https://angeldemon.xyz): More Information on my Art Portfolio can be found
 - MISC Projects: BlueSkies Minecraft, Google Sites, Other Small Games
 
+## Connect with me here!
+
+### Social Medias
+- [Linked In📖](https://www.linkedin.com/in/sienasrivera/): @sienasrivera
+- [Instagram📷](https://www.instagram.com/sienasrivera/): @sienasrivera
+- [Discord👨‍👨‍👧‍👧](https://www.discord.app/): @bellaingenue
+- [Youtube🎬](https://www.youtube.com/channel/bellaingenue): @bellaingenue
+
+### Email and other Links
+- [Email📫](mailto:sienasrivera@gmail.com)
+- [School Portfolio📚](https://www.sienasrivera.website/home)
+- [Art Website and Portfolio🎨](https://www.angeldemon.xyz)
+  
+
 ## About the Portfolio
 Siena's Portfolio &copy; 2024-2024 by [Siena Rivera](https://sienasrivera.website).
 

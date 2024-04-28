@@ -1,8 +1,8 @@
 ---
 title: Your Journey
 layout: default
-parent: Projects
-nav_order: 3
+parent: Games
+nav_order: 2
 ---
 
 # Your Journey!
@@ -19,7 +19,7 @@ nav_order: 3
 # Small HTML/CSS Game
 A small HTML/CSS/JS Game I made in 2023 based on a story I wrote one night for my friends. Want to play? Feel free to play using the button below. 
 
-<button id="playbutton" onclick="window.location.href='/docs/projects/pchildren/yourjourney/yourjourney.html';">💙Interested in playing my game? Click here!💙</button>
+<button id="playbutton" onclick="window.location.href='/docs/games/gchildren/yourjourney/yourjourney.html';">💙Interested in playing my game? Click here!💙</button>
 
 ## Want to Read the Story?
 There was an original story that went along this game. I wrote it in March 2023 and revamped it later that year. If you're curious, feel free to head [here](https://docs.google.com/document/d/1gHJSS_0pU0xngm1KhSMeHbvJr3k66wlhQr8bzEWA6uk/edit?usp=sharing) to read more!
