@@ -3,6 +3,7 @@ title: Projects
 layout: default
 nav_order: 3
 has_children: true
+has_toc: false
 ---
 
 # Projects!
@@ -30,7 +31,7 @@ Welcome to my Github Portfolio and where I will publish my work and projects tha
 - MISC Projects: BlueSkies Minecraft, Google Sites, Other Small Games
 
 ## About the Portfolio
-Siena's Portfolio &copy; 2024-{{ "now" | date: "%Y" }} by [Siena Rivera](https://sienasrivera.website).
+Siena's Portfolio &copy; 2024-2024 by [Siena Rivera](https://sienasrivera.website).
 
 ### License
 Siena's Portfolio is distributed by an [MIT license](https://github.com/bellaingenue/bellaingenue.github.io/LICENSE).
