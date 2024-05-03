@@ -2,7 +2,7 @@
 title: Personality Test
 layout: default
 parent: Projects
-nav_order: 1
+nav_order: 2
 ---
 
 # Personality Test!
