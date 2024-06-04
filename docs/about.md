@@ -39,14 +39,14 @@ Come with me on this adventure, and let us get to know each other better!!
 
 #### Programming:
 - Java
-- Javascript
 - Python + Jupyter Notebooks
-- HTML + CSS
+- HTML + CSS + Javascript
 - Adobe Products
 - Microsoft Products
 #### Professional:
 - Natural Leader
 - Divided Attention (Multitasking)
+- 
 - Excellent Communicator
 - Friendly and Patient
 
