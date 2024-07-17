@@ -5,14 +5,14 @@ GEM
     addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
     afm (0.2.2)
-    async (2.12.0)
+    async (2.14.2)
       console (~> 1.25, >= 1.25.2)
       fiber-annotation
-      io-event (~> 1.6)
+      io-event (~> 1.6, >= 1.6.5)
     bigdecimal (3.1.8)
     colorator (1.1.0)
     concurrent-ruby (1.2.3)
-    console (1.25.2)
+    console (1.26.0)
       fiber-annotation
       fiber-local (~> 1.1)
       json
@@ -31,7 +31,7 @@ GEM
     fiber-annotation (0.2.0)
     fiber-local (1.1.0)
       fiber-storage
-    fiber-storage (0.1.1)
+    fiber-storage (0.1.2)
     forwardable-extended (2.6.0)
     google-protobuf (4.26.1-arm64-darwin)
       rake (>= 13)
@@ -52,7 +52,7 @@ GEM
     http_parser.rb (0.8.0)
     i18n (1.14.4)
       concurrent-ruby (~> 1.0)
-    io-event (1.6.0)
+    io-event (1.6.5)
     jekyll (4.3.3)
       addressable (~> 2.4)
       colorator (~> 1.0)
@@ -155,7 +155,7 @@ PLATFORMS
   x86_64-linux-gnu
 
 DEPENDENCIES
-  async (~> 2.12)
+  async (~> 2.14)
   html-proofer (~> 5.0)
   jekyll (~> 4.3.3)
   jekyll-default-layout
