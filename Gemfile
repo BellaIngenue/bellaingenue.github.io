@@ -13,7 +13,7 @@ gem "jekyll-default-layout"
 
 gem "jekyll-github-metadata", ">= 2.15"
 
-gem 'async', '~> 2.12'
+gem 'async', '~> 2.17'
 
 gem 'wdm', '>= 0.1.0'
 
