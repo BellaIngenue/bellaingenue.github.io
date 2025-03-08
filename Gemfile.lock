@@ -176,7 +176,7 @@ DEPENDENCIES
   jekyll-default-layout
   jekyll-github-metadata (>= 2.16.1)
   jekyll-include-cache
-  just-the-docs (= 0.10.1)
+  just-the-docs
 
 BUNDLED WITH
    2.5.9
