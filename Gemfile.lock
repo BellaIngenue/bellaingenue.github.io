@@ -183,6 +183,7 @@ DEPENDENCIES
   jekyll-include-cache
   just-the-docs
   wdm (>= 0.1.0)
+  zeitwerk (~> 2.7, >= 2.7.2)
 
 BUNDLED WITH
    2.5.9

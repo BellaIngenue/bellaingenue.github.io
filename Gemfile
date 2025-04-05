@@ -21,6 +21,8 @@ gem 'faraday-retry', '~> 2.2'
 
 # gem 'wdm', '>= 0.1.0'
 
+gem 'zeitwerk', '~> 2.7', '>= 2.7.2'
+
 gem "jekyll-include-cache", group: :jekyll_plugins
 
 gem "html-proofer", "~> 5.0.10", :group => :development
