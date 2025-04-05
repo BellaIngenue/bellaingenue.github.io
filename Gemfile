@@ -13,7 +13,11 @@ gem "jekyll-default-layout"
 
 gem "jekyll-github-metadata", ">= 2.16.1"
 
+gem 'wdm', '>= 0.1.0'
+
 gem 'async', '~> 2.21.1'
+
+gem 'faraday-retry', '~> 2.2'
 
 # gem 'wdm', '>= 0.1.0'
 
