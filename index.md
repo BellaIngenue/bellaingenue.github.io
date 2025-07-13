@@ -24,7 +24,6 @@ Welcome to my Github Portfolio and where I will publish my work and projects tha
 - [Discord MAIL📫](https://bellaingenue.github.io/docs/projects/pchildren/discordmail/): Discord Webhook that connects Gmail to Discord
 - [Adobe Macromedia Flash Game🌞](https://bellaingenue.github.io/docs/projects/pchildren/flashgame/flashgame.html): A very old Flash game made in the 2010s
 - [Your Journey🤍](https://bellaingenue.github.io/docs/projects/pchildren/yourjourney/yourjourney.html): A simple game made with Twine
-- [Art Portfolio Information🎨](https://angeldemon.xyz): More Information on my Art Portfolio can be found
 - MISC Projects: BlueSkies Minecraft, Google Sites, Other Small Games
 
 ## Connect with me here!
@@ -38,11 +37,10 @@ Welcome to my Github Portfolio and where I will publish my work and projects tha
 ### Email and other Links
 - [Email📫](mailto:sienasrivera@gmail.com)
 - [School Portfolio📚](https://www.sienasrivera.website/home)
-- [Art Website and Portfolio🎨](https://www.angeldemon.xyz)
   
 
 ## About the Portfolio
-Siena's Portfolio &copy; 2024-2024 by [Siena Rivera](https://sienasrivera.website).
+Siena's Portfolio &copy; 2024-2025 by [Siena Rivera](https://sienasrivera.website).
 
 ### License
 Siena's Portfolio is distributed by an [MIT license](https://github.com/bellaingenue/bellaingenue.github.io/LICENSE).
