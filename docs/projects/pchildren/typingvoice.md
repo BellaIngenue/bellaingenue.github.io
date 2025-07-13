@@ -6,11 +6,9 @@ nav_order: 1
 ---
 
 # Voice Generator!
-
 {:.no_toc}
 
 ## Table of contents
-
 {: .no_toc .text-delta }
 
 1. TOC
@@ -31,7 +29,8 @@ But in case you want to download it and do it local, download the code from my G
 [Voice Generator 🗣️](https://github.com/BellaIngenue/Voice-Generator): Github Project Link
 
 {: .important }
-- Python 3.10: Make sure you have the CORRECT Version, as Audioop no longer works with any others higher than 3.10. [Download 3.10 here:](https://www.python.org/downloads/release/python-3100/): Download
+- Python 3.10: Make sure you have the CORRECT Version, as Audioop no longer works with any others higher than 3.10. 
+[Download 3.10 here](https://www.python.org/downloads/release/python-3100/): Download
   - Make sure to add it in the Environmental PATH
 - Pip Installer: Makes life easier
 - Pydub: Handles loading, editing, and exporting audio

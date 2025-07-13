@@ -2,12 +2,13 @@ import os
 import random
 import argparse
 import asyncio
+import pyscript
 import tkinter as tk
+from pyscript import document
 from tkinter import filedialog, messagebox
 from tkinter import ttk
 from pydub import AudioSegment
 from pydub.effects import speedup
-
 
 # --- Original Audio Logic ---
 def distort_clip(base_clip, semitone_shift=0):
@@ -60,73 +61,67 @@ def get_sound_categories():
     
 
 # --- GUI Logic ---
+def generate_voice():
+    text = text_entry.get("1.0", tk.END).strip()
+    category = selected_category.get().strip()
+    try:
+        pitch = float(pitch_entry.get())
+        speed = float(speed_entry.get())
+    except ValueError:
+        messagebox.showerror("Invalid Input", "Pitch and speed must be numbers.")
+        return
+    output_path = output_entry.get().strip()
 
-async def main():
+    try:
+        clips = load_clips(None if category == "mixed" else category)
+        final_audio = generate_talk_audio(text, clips, pitch, speed)
 
-    def generate_voice():
-        text = text_entry.get("1.0", tk.END).strip()
-        category = selected_category.get().strip()
-        try:
-            pitch = float(pitch_entry.get())
-            speed = float(speed_entry.get())
-        except ValueError:
-            messagebox.showerror("Invalid Input", "Pitch and speed must be numbers.")
-            return
-        output_path = output_entry.get().strip()
-    
-        try:
-            clips = load_clips(None if category == "mixed" else category)
-            final_audio = generate_talk_audio(text, clips, pitch, speed)
-    
-            os.makedirs(os.path.dirname(output_path), exist_ok=True)
-            final_audio.export(output_path, format="ogg")
-            messagebox.showinfo("Success", f"Saved to {output_path}")
-        except Exception as e:
-            messagebox.showerror("Error", str(e))
-    
-    # --- Build GUI ---
-    root = tk.Tk()
-    root.title("Undertale Dialogue Voice Generator")
-    
-    frame = ttk.Frame(root, padding=15)
-    frame.grid(row=0, column=0)
-    categories = get_sound_categories()
-    selected_category = tk.StringVar()
-    selected_category.set(categories[0] if categories else "")
-    
-    # Text input
-    ttk.Label(frame, text="Text:").grid(row=0, column=0, sticky="w")
-    text_entry = tk.Text(frame, width=40, height=4)
-    text_entry.grid(row=0, column=1, pady=5)
-    
-    # Category
-    ttk.Label(frame, text="Category (folder):").grid(row=1, column=0, sticky="w")
-    category_dropdown = ttk.Combobox(frame, textvariable=selected_category, values=categories, state="readonly")
-    category_dropdown.grid(row=1, column=1, pady=5)
-    
-    # Pitch
-    ttk.Label(frame, text="Pitch (semitones):").grid(row=2, column=0, sticky="w")
-    pitch_entry = ttk.Entry(frame, width=30)
-    pitch_entry.insert(0, "0")
-    pitch_entry.grid(row=2, column=1, pady=5)
-    
-    # Speed
-    ttk.Label(frame, text="Speed multiplier:").grid(row=3, column=0, sticky="w")
-    speed_entry = ttk.Entry(frame, width=30)
-    speed_entry.insert(0, "1.2")
-    speed_entry.grid(row=3, column=1, pady=5)
-    
-    # Output path
-    ttk.Label(frame, text="Output filename:").grid(row=4, column=0, sticky="w")
-    output_entry = ttk.Entry(frame, width=30)
-    output_entry.insert(0, "outputs/typingvoice.ogg")
-    output_entry.grid(row=4, column=1, pady=5)
-    
-    # Generate button
-    generate_btn = ttk.Button(frame, text="Generate Voice", command=generate_voice)
-    generate_btn.grid(row=5, column=1, pady=10, sticky="e")
-    
-    root.mainloop()
-    await asyncio.sleep(0)
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        final_audio.export(output_path, format="ogg")
+        messagebox.showinfo("Success", f"Saved to {output_path}")
+    except Exception as e:
+        messagebox.showerror("Error", str(e))
 
-asyncio.run(main())
+# --- Build GUI ---
+root = tk.Tk()
+root.title("Undertale Dialogue Voice Generator")
+
+frame = ttk.Frame(root, padding=15)
+frame.grid(row=0, column=0)
+categories = get_sound_categories()
+selected_category = tk.StringVar()
+selected_category.set(categories[0] if categories else "")
+
+# Text input
+ttk.Label(frame, text="Text:").grid(row=0, column=0, sticky="w")
+text_entry = tk.Text(frame, width=40, height=4)
+text_entry.grid(row=0, column=1, pady=5)
+
+# Category
+ttk.Label(frame, text="Category (folder):").grid(row=1, column=0, sticky="w")
+category_dropdown = ttk.Combobox(frame, textvariable=selected_category, values=categories, state="readonly")
+category_dropdown.grid(row=1, column=1, pady=5)
+
+# Pitch
+ttk.Label(frame, text="Pitch (semitones):").grid(row=2, column=0, sticky="w")
+pitch_entry = ttk.Entry(frame, width=30)
+pitch_entry.insert(0, "0")
+pitch_entry.grid(row=2, column=1, pady=5)
+
+# Speed
+ttk.Label(frame, text="Speed multiplier:").grid(row=3, column=0, sticky="w")
+speed_entry = ttk.Entry(frame, width=30)
+speed_entry.insert(0, "1.2")
+speed_entry.grid(row=3, column=1, pady=5)
+
+# Output path
+ttk.Label(frame, text="Output filename:").grid(row=4, column=0, sticky="w")
+output_entry = ttk.Entry(frame, width=30)
+output_entry.insert(0, "outputs/typingvoice.ogg")
+output_entry.grid(row=4, column=1, pady=5)
+
+# Generate button
+generate_btn = ttk.Button(frame, text="Generate Voice", command=generate_voice)
+generate_btn.grid(row=5, column=1, pady=10, sticky="e")
+
+root.mainloop()

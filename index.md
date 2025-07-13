@@ -4,7 +4,6 @@ layout: home
 nav_order: 1
 ---
 # Siena R | Github Portfolio Home Page
-
 {:.no_toc}
 
 ## Table of contents
