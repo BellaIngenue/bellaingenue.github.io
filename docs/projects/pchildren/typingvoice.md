@@ -5,10 +5,12 @@ parent: Projects
 nav_order: 1
 ---
 
-# Voice Generator!
+# Voice Generator
+
 {:.no_toc}
 
 ## Table of contents
+
 {: .no_toc .text-delta }
 
 1. TOC
@@ -29,7 +31,8 @@ But in case you want to download it and do it local, download the code from my G
 [Voice Generator 🗣️](https://github.com/BellaIngenue/Voice-Generator): Github Project Link
 
 {: .important }
-- Python 3.10: Make sure you have the CORRECT Version, as Audioop no longer works with any others higher than 3.10. 
+
+- Python 3.10: Make sure you have the CORRECT Version, as Audioop no longer works with any others higher than 3.10.
 [Download 3.10 here](https://www.python.org/downloads/release/python-3100/): Download
   - Make sure to add it in the Environmental PATH
 - Pip Installer: Makes life easier
@@ -38,17 +41,18 @@ But in case you want to download it and do it local, download the code from my G
   - If you’re only working with .wav, you don’t need FFmpeg — pydub works with raw .wav files out of the box.
 - SimpleAudio: Live Playback (if desired)
 
-## Commands and Examples:
+## Commands and Examples
 
-### Installing Dependencies:
+### Installing Dependencies
 
 ``py -3.10 -m pip install pydub simpleaudio``
 
-### Code Examples:
+### Code Examples
 
 INPUTS: (text, category, pitch, speed, outputname)
 CATEGORIES: melodic, soft, rough, long
 DEFAULT INPUT:
+
 - category: all OR mixed
 - filename: output.wav
 - pitch: 0 (normal)
