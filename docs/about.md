@@ -19,7 +19,6 @@ nav_order: 2
 
 
 ## About Me!
-
 Hello, Github explorer! Welcome to my little corner of the digital universe! I hope you enjoy your stay! Let me tell you a little bit about me. I'm a cognitive science enthusiast with a zest for life and a passion for understanding how humans and machines mingle and dance in the realms of information processing.
 
 I'm a curious mind with a Bachelor's degree in Cognitive Science from UCSD, equipped with the power of mathematics and programming, and adorned with certifications in Java and OOP.
@@ -33,7 +32,6 @@ My next stop is at a Dermatology Research Center. A bit more up my alley, you co
 Join me on this adventure, won't you? Let's make some waves in the world of cognitive science and have a little fun along the way!
 
 ## My Mission Here
-
 I am a dynamic cognitive science graduate with a vibrant personality and a fervent desire to inspire and empower others. Armed with a strong academic background in understanding human behavior and cognition, I possess analytical prowess and a natural ability to connect with people. My boundless enthusiasm and genuine commitment to helping others make me a compelling catalyst for transformation, poised to inspire and uplift individuals and communities worldwide!
 
 I want to change the world. Whether that be in the most miniscule manner, in my own life, or in a traumatic and large way. I have ambition, and strength, and I want to see my efforts evolve.
@@ -45,7 +43,6 @@ Come with me on this adventure, and let us get to know each other better!!
 ### SKILLS
 
 #### Programming/Scholarly:
-
 - Programming Languages: Java + Python + MATLAB + R + Microsoft FLOW Automate
 - Data Science: Python + Jupyter Notebooks + Pandas + NumPy + Seaborn + MatPlotLib
 - Web Design: HTML + CSS + Javascript + Jekyll + Github Pages
@@ -53,7 +50,6 @@ Come with me on this adventure, and let us get to know each other better!!
 - Critical Thinking + Resilience + Innovation
 
 #### Professional/Career:
-
 - Research: Academic Writing + APA + GCP Certified + IATA Certified + Documentation + Sponsor and Regulatory Practices
 - Medical Knowledge: ICD-11 + DSM-5-TR + Diagnoses & Disorders + Dermatological Concerns
 - Lab Skills: Accessioning: qPCR Extraction, ITB Genetic Transportation, Centrifuges, PPE

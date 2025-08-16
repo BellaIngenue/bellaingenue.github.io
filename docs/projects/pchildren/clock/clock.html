@@ -1,0 +1,57 @@
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Clock Calculator 🧮</title>
+	<!-- CUSTOM -->
+	<link rel="stylesheet" type="text/css" href="/assets/css/clock.css">
+	<script type="text/javascript" src="/assets/js/clock.js"></script>
+</head>
+<!-- BODY -->
+
+<body>
+	<div class="clockcalculator" id="clockcalculator">
+		<div class="calculator">
+			<center class="title">The Clock Calculator</center>
+			<div class="questions">
+				<div class="inday" id="new">
+					<label for="inday">Clock In (24HR):</label>
+					<input type="text" id="inday" name="inday" placeholder="Example: 8:00" maxlength="10" size="30">
+				</div>
+				<div class="outlunch" id="new">
+					<label for="outlunch">Out Lunch (24HR):</label>
+					<input type="text" id="outlunch" name="outlunch" placeholder="Example: 12:00" maxlength="10"
+						size="30">
+				</div>
+				<div class="lunchtime" id="new">
+					<label for="lunchtime">Lunch Time Allowed (Mins):</label>
+					<input type="text" id="lunchtime" name="lunchtime" placeholder="Example: 30" maxlength="10"
+						size="30">
+				</div>
+				<div class="inlunch" id="new">
+					<label for="inlunch">In Lunch (24HR):</label>
+					<input type="text" id="inlunch" name="inlunch" placeholder="Example: 12:30" maxlength="10"
+						size="30">
+				</div>
+			</div>
+		</div>
+		<div class="calcuate">
+			<button onclick="performCalculation()">Calculate</button> <text>ERROR Check: <span id="error"></span></text>
+		</div>
+		<div class="output">
+			<center class="title">The Clock Calculator</center>
+			<div class="squares">
+				<div class="square-with-text" id="square1">
+					<p>Min Lunch in: </p>
+				</div>
+				<div class="square-with-text" id="square1">
+					<p>Time at Lunch: </p>
+				</div>
+				<div class="square-with-text" id="square1">
+					<p>Max Out Day: </p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>

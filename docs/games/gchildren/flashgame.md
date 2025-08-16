@@ -27,7 +27,6 @@ It uses Ruffle, a Chrome Extension that allows you to play Flash Games in your b
 
 
 ## Having Issues?
-
  Please download the Ruffle Chrome Extension if you run into any complications in running the game itself. Do note, it's an incredibly small and unfinished game. I lost all the assets and was too uninterested to ever start over. 
 
 If there are any other issues, or complications, please alert me [here](mailto:sienasrivera@gmail.com). Thank you for your interest!!

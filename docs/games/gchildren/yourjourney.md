@@ -26,7 +26,6 @@ There was an original story that went along this game. I wrote it in March 2023 
 
 
 ## Having Issues?
-
 There is no other thing you need to do. As it is HTML based there should be no complications. Do note, it's an incredibly small and unfinished game. I was too uninterested to ever continue sadly.
 
 If there are any other issues, or complications, please alert me [here](mailto:sienasrivera@gmail.com). Thank you for your interest!!

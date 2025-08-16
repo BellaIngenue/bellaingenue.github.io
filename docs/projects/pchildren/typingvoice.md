@@ -6,11 +6,9 @@ nav_order: 1
 ---
 
 # Voice Generator
-
 {:.no_toc}
 
 ## Table of contents
-
 {: .no_toc .text-delta }
 
 1. TOC
@@ -19,11 +17,9 @@ nav_order: 1
 ---
 
 # Voice Generator
-
-Voice Generator is a simple CLI generator of the sound system used for dialogues in games like Celeste and Undertale! But I managed to bring it over to its own webpage on here for anyone to use on Github Pages!
+Voice Generator is a simple CLI generator of the sound system used for dialogues in games like Celeste and Undertale! But I managed to bring it over to its own webpage on here for anyone to use on Github Pages! (Not able to completely implement yet on Github Pages)
 
 ### Want to give it a try?
-
 <button id="playbutton" onclick="window.location.href='/docs/projects/pchildren/typingvoice/voicegen.html';">💛Interested in giving it a try? Click here!💛</button>
 
 But in case you want to download it and do it local, download the code from my Github here:
@@ -44,11 +40,9 @@ But in case you want to download it and do it local, download the code from my G
 ## Commands and Examples
 
 ### Installing Dependencies
-
 ``py -3.10 -m pip install pydub simpleaudio``
 
 ### Code Examples
-
 INPUTS: (text, category, pitch, speed, outputname)
 CATEGORIES: melodic, soft, rough, long
 DEFAULT INPUT:
