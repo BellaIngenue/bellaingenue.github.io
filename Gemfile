@@ -12,7 +12,7 @@ gem 'jekyll-default-layout', '~> 0.1.5'
 
 gem 'jekyll-github-metadata', '~> 2.16', '>= 2.16.1'
 
-gem 'async', '~> 2.25'
+gem 'async', '~> 2.28'
 
 gem 'faraday-retry', '~> 2.3', '>= 2.3.2'
 
