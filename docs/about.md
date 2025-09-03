@@ -59,7 +59,7 @@ Come with me on this adventure, and let us get to know each other better!!
 
 | Research Assistant |  West Dermatology Research Center | San Diego |
 | --- | --- | --- |
-| Start: April 2025 | End: Present | Research Department |
+| Start: April 2025 | End: September 2025 | Research Department |
 
 West Dermatology Research Center was looking for a few new Research Assistants to support and help with their current studies. I am incredibly grateful for this new and bright opportunity. I am so very excited to start this new journey in the Dermatology world. I am passionate about research, and I feel this is a great avenue for my endeavors. I am responsible for answering Research department phone lines, taking messages and accurately relaying information to appropriate study coordinator. I assist with participant recruitment by posting flyers around San Diego, cold calling potential patients, and updating the company’s Facebook Page with current and upcoming studies. I pre-screen potential participants for Clinical Trials in accordance with trial protocols and schedules initial screening and future appointments. I make custom scripting programs for helping create a more automated work environment that allows for more efficiency and less mistakes. I help with procedures for patients such as taking vitals, performing EKG/ECGs, and helping assess bloodwork and UPT. I assist with collection and preparation of materials for submission to sponsors and regulatory services (IRB, FDA, etc) using Good Clinical Practice (GCP) and Good Documentation Practice (GDP) to fulfill expectations
 
@@ -103,8 +103,7 @@ Before transferring to University of California, San Diego, Siena decided to go 
 ### Social Medias
 - [Linked In📖](https://www.linkedin.com/in/sienasrivera/): @sienasrivera
 - [Instagram📷](https://www.instagram.com/sienasrivera/): @sienasrivera
-- [Discord👨‍👨‍👧‍👧](https://www.discord.app/): @bellaingenue
-- [Youtube🎬](https://www.youtube.com/channel/bellaingenue): @bellaingenue
+- [Youtube🎬](https://www.youtube.com/@pretty-innocent): @pretty-innocent
 
 ### Email and other Links
 - [Email📫](mailto:sienasrivera@gmail.com)

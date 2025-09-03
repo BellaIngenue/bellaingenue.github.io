@@ -1,8 +1,8 @@
 title: Siena Rivera | Github Website
 description: Github Professional Website
 theme: just-the-docs
-logo: "/assets/images/icon.JPG"
-favicon_ico: "/assets/images/icon.ico"
+logo: "assets/images/icon.JPG"
+favicon_ico: "assets/images/icon.ico"
 url: https://bellaingenue.github.io/
 
 permalink: pretty

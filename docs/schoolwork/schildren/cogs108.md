@@ -53,8 +53,6 @@ To make it easier to navigate and for others to understand easier, I have provid
 *Image 2: A Bar Graph to Show Traffic Mean Counts by County of CA*
 ![ ](/assets/images/Map.png)
 
-*Image 3: A Geographic Heat Map to Show Median AQI Counts by County of CA*
-
 
 ## Have any questions, comments, or concerns?
 

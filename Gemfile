@@ -18,6 +18,8 @@ gem 'faraday-retry', '~> 2.3', '>= 2.3.2'
 
 gem 'zeitwerk', '~> 2.7', '>= 2.7.3'
 
+gem "nokogiri", ">= 1.18.9"
+
 gem "jekyll-include-cache", group: :jekyll_plugins
 
 gem "html-proofer", "~> 5.0.10", :group => :development

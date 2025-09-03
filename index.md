@@ -32,8 +32,7 @@ Welcome to my Github Portfolio and where I will publish my work and projects tha
 #### Social Medias
 - [Linked In📖](https://www.linkedin.com/in/sienasrivera/): @sienasrivera
 - [Instagram📷](https://www.instagram.com/sienasrivera/): @sienasrivera
-- [Discord👨‍👨‍👧‍👧](https://www.discord.app/): @bellaingenue
-- [Youtube🎬](https://www.youtube.com/channel/bellaingenue): @bellaingenue
+- [Youtube🎬](https://www.youtube.com/@pretty-innocent): @pretty-innocent
 
 #### Email and other Links
 - [Email📫](mailto:sienasrivera@gmail.com)
