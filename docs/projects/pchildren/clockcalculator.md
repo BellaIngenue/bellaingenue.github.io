@@ -1,7 +1,7 @@
 ---
 title: Clock Calculator
 layout: default
-parent: Projects
+parent: Fun Projects
 nav_order: 4
 ---
 

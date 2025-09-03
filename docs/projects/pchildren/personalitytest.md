@@ -1,7 +1,7 @@
 ---
 title: Personality Test
 layout: default
-parent: Projects
+parent: Fun Projects
 nav_order: 2
 ---
 

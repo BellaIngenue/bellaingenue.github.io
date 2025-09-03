@@ -1,7 +1,7 @@
 ---
 title: Discord Mail
 layout: default
-parent: Projects
+parent: Fun Projects
 nav_order: 3
 ---
 

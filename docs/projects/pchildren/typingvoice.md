@@ -1,7 +1,7 @@
 ---
 title: Voice Generator
 layout: default
-parent: Projects
+parent: Fun Projects
 nav_order: 1
 ---
 
