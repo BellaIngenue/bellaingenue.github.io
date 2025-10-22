@@ -55,7 +55,7 @@ If you're interested in the code, use the TOC to get to the bottom of the page t
 		7. That entails that every 60 minutes, the command sendMailsToDiscord() will be run
 		8. I would not advise doing any sooner than that, as your email quota may run out. (100/day for free users)
 
-# Coding Time!!!!
+# Source Code
 ---
 
      function  postDiscord(postMsg) {// this posts the emails gathered to Discord

@@ -23,6 +23,7 @@ Welcome to my Github Portfolio and where I will publish my work and projects tha
 ### Some of the Projects and Work
 - [Voice Generator🗣️](https://bellaingenue.github.io/docs/projects/pchildren/voicegenerator/): A silly project I made for a future Video Game that uses my voice to make "Undertale"-inspired voice lines!
 - [Discord MAIL📫](https://bellaingenue.github.io/docs/projects/pchildren/discordmail/): Discord Webhook that connects Gmail to Discord
+- [Data Projects 📊](https://bellaingenue.github.io/docs/data/data/): Some of the Data Projects I have done since Graduating! Mostly for fun, but there were some projects I am really proud of!
 - [Adobe Macromedia Flash Game🌞](https://bellaingenue.github.io/docs/projects/pchildren/flashgame/flashgame.html): A very old Flash game made in the 2010s
 - [Your Journey🤍](https://bellaingenue.github.io/docs/projects/pchildren/yourjourney/yourjourney.html): A simple game made with Twine
 - MISC Projects: BlueSkies Minecraft, Google Sites, Other Small Games
@@ -32,7 +33,7 @@ Welcome to my Github Portfolio and where I will publish my work and projects tha
 #### Social Medias
 - [Linked In📖](https://www.linkedin.com/in/sienasrivera/): @sienasrivera
 - [Instagram📷](https://www.instagram.com/sienasrivera/): @sienasrivera
-- [Youtube🎬](https://www.youtube.com/@pretty-innocent): @pretty-innocent
+- [Gaming Channel on Youtube🎬](https://www.youtube.com/@pretty-innocent): @pretty-innocent
 
 #### Email and other Links
 - [Email📫](mailto:sienasrivera@gmail.com)

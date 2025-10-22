@@ -28,5 +28,5 @@ Welcome to my Github Portfolio and where I will publish my work and projects tha
 - [Voice Generator🗣️](https://bellaingenue.github.io/docs/projects/pchildren/voicegenerator/): A silly project I made for a future Video Game that uses my voice to make "Undertale"-inspired voice lines!
 - [Personality Test🔋](https://bellaingenue.github.io/docs/projects/pchildren/personalitytest/): This simple personality test is based off your SOCIAL Extroversion or Introversion. In addition, it will look into if you’re an Ambivert, or how much of an Extrovert or Introvert you are
 - [Clock Calculator🕰️](https://bellaingenue.github.io/docs/projects/pchildren/clockcalculator/): Ever had a boss that would not allow you to ever clock out late? Well, here’s a really useless website built using HTML, CSS and JS
-- [Art Portfolio Information🎨](https://www.sienasrivera.website/personal-projects/angeldemon-artwork): More Information on my Art Portfolio can be found
-- [MISC Projects🌧️](https://www.sienasrivera.website/personal-projects/blueskies-minecraft): BlueSkies Minecraft, Google Sites, Other Small Games
+- [Art Portfolio Information🎨](https://www.sienasrivera.website/personal-projects/angeldemon-artwork): More Information on my Art Portfolio can be found here!
+- [MISC Projects🌧️](https://www.sienasrivera.website/personal-projects): BlueSkies Minecraft, Google Sites, Other Small Games

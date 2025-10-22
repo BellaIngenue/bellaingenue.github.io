@@ -24,7 +24,10 @@ You do need to make sure you have at least IN DAY, OUT LUNCH and Time allowed fo
 I have an Excel Version of the code available that is much more intuitive and easier to use. BUT for SCIENCE I wanted to make an actual website GUI version.
 
 ## Information about this code
-This is a simple Calculator  HTML, CSS, JS project that was made using CodePen ❤️
+This is a simple Calculator  HTML, CSS, JS project that was made using CodePen ❤️ 
+
+## Source Code:
+[Source Code Here!](https://gist.github.com/BellaIngenue/fb5d09627ff0b1dad9e05269587c2486): Locate the Github Repo for the Source Code
 
 ### Want to try the Calculator?
 <button id="playbutton" onclick="window.location.href='/docs/projects/pchildren/clock/clock.html';">💛Interested in trying my Calculator? Click here!💛</button>

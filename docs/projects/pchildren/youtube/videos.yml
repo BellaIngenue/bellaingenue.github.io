@@ -1,0 +1,7 @@
+youtube_videos:
+  - title: "First Video"
+    id: "video_id_1"
+  - title: "Second Video"
+    id: "video_id_2"
+  - title: "Third Video"
+    id: "video_id_3"
