@@ -22,4 +22,4 @@ gem "nokogiri", ">= 1.18.9"
 
 gem "jekyll-include-cache", group: :jekyll_plugins
 
-gem "html-proofer", "~> 5.0.10", :group => :development
+gem "html-proofer", "~> 5.1.0", :group => :development
