@@ -2,7 +2,7 @@
 title: Gaming Youtube Channel
 layout: default
 parent: Fun Projects
-nav_order: 5
+nav_order: 6
 ---
 
 # Gaming Youtube Channel
@@ -27,16 +27,3 @@ Obligatory warning that this Youtube Channel is a GAMING-focused channel that is
 - [Youtube Channel Link 📽️](https://www.youtube.com/@pretty-innocent): Youtube Channel Link/Homepage
 - [Instagram Link ❤️](https://www.instagram.com/pretty_innocent_): Instagram Link
 - [Twitch Live Link 😎](https://www.twitch.tv/pretty_innocent): Twitch Live Link
-
-
-<div id="video-carousel" class="splide" role="group" aria-label="YouTube Video Carousel">
-  <div class="splide__track">
-    <ul class="splide__list">
-      {% for video in site.data.videos.youtube_videos %}
-        <li class="splide__slide">
-          {% include youtube_embed.html id=video.id title=video.title %}
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-</div>
