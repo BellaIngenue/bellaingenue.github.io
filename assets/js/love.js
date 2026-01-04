@@ -74,7 +74,7 @@ function performCalculation() {
 		const compatibility = loveCalculation(name1, name2);
 		document.querySelectorAll(
 			"#square"
-		)[0].innerHTML = `<p>Compatibility:</p><p><br><strong>${compatibility}</strong></p>`;
+		)[0].innerHTML = `<p>Compatibility:</p><p><br><strong>${compatibility}%</strong></p>`;
 	} else {
 		alert("Please enter TWO Valid Names!");
 	}

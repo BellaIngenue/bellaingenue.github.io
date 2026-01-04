@@ -83,6 +83,12 @@ Hired as a Mathematics Tutor in the Math Lab at my school. Worked with students 
 
 ### EDUCATION
 
+| Certificiation | Biostatistics | UC San Diego |
+| --- | --- | --- |
+| Graduating GPA: N/A | Started in January 2026 | Graduating in December 2026  |
+
+In order to gain a more diverse set of skills, I wanted to go back to get a Certification in Biostatistics. I feel like my true calling is in the Understanding of Qualified and Quanitified Data.
+
 | Bachelor's Degree | Cognitive Science | UC San Diego |
 | --- | --- | --- |
 | Graduating GPA: 3.83 | Started in June 2021 | Graduated in March 2024  |
