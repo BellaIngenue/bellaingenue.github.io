@@ -23,12 +23,9 @@ Hi there! My name is Siena, I'm a Cognitive Science graduate from UC San Diego. 
 ## Simple Github Portfolio for Games
 Welcome to my Github Portfolio and where I will publish my work and projects that I can not host on Github. The main features in this section are based off games I have made (two visual novels). One made with Adobe Flash, and the other with a application known as Twine.
 
+And I'm happy to announce my newest arrival, Borderline Syndrome! A Horror/Mystery RPG Maker MZ Game that is finally releasing its first DEMO Version!
+
 ## Some of the Games I've made:
+- [RPG Maker DEMO 🌕](https://bellaingenue.itch.io/borderline-syndrome-demo): The DEMO version of my current Project: Borderline Syndrome, a Horror/Mystery RPG Maker MZ Game!
 - [Adobe Macromedia Flash Game🌞](https://bellaingenue.github.io/docs/games/gchildren/flashgame/flashgame.html): A very old Flash game made in the 2010s
 - [Your Journey🤍](https://bellaingenue.github.io/docs/games/gchildren/yourjourney/yourjourney.html): A simple game made with Twine
-
-## About the Portfolio
-Siena's Portfolio &copy; 2024-2024 by [Siena Rivera](https://sienasrivera.website).
-
-### License
-Siena's Portfolio is distributed by an [MIT license](https://github.com/bellaingenue/bellaingenue.github.io/LICENSE).

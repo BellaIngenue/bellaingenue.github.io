@@ -8,9 +8,7 @@ Welcome to my Github Portfolio and where I will publish my work and projects tha
 - [Voice Generator🗣️](https://bellaingenue.github.io/docs/projects/pchildren/voicegenerator/): A silly project I made for a future Video Game that uses my voice to make "Undertale"-inspired voice lines!
 - [Discord MAIL📫](https://bellaingenue.github.io/docs/projects/pchildren/discordmail/): Discord Webhook that connects Gmail to Discord
 - [Data Projects 📊](https://bellaingenue.github.io/docs/data/data/): Some of the Data Projects I have done since Graduating! Mostly for fun, but there were some projects I am really proud of! Newest is a project I had first done in a 2019 course and since re-compiled in both Python and R!!
-- [Adobe Macromedia Flash Game🌞](https://bellaingenue.github.io/docs/projects/pchildren/flashgame/flashgame.html): A very old Flash game made in the 2010s
-- [Your Journey🤍](https://bellaingenue.github.io/docs/projects/pchildren/yourjourney/yourjourney.html): A simple game made with Twine
-- MISC Projects: BlueSkies Minecraft, Google Sites, Other Small Games
+- [RPG Maker DEMO 🌕](https://bellaingenue.itch.io/borderline-syndrome-demo): The DEMO version of my current Project: Borderline Syndrome, a Horror/Mystery RPG Maker MZ Game!
 
 ### Connect with me here
 
