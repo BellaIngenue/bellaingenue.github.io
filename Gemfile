@@ -16,7 +16,7 @@ gem 'async', '~> 2.25'
 
 gem 'faraday-retry', '~> 2.3', '>= 2.3.2'
 
-gem 'zeitwerk', '~> 2.7', '>= 2.7.3'
+gem 'zeitwerk', '~> 2.7'
 
 gem "nokogiri", ">= 1.18.9"
 

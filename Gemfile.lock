@@ -164,7 +164,7 @@ GEM
     uri (1.0.3)
     webrick (1.9.1)
     yell (2.2.2)
-    zeitwerk (2.7.3)
+    zeitwerk (2.7.4)
 
 PLATFORMS
   arm64-darwin
@@ -182,7 +182,7 @@ DEPENDENCIES
   jekyll-include-cache
   just-the-docs (~> 0.10.1)
   nokogiri (>= 1.18.9)
-  zeitwerk (~> 2.7, >= 2.7.3)
+  zeitwerk (~> 2.7)
 
 BUNDLED WITH
    2.5.9
