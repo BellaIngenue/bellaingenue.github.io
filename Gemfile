@@ -14,7 +14,7 @@ gem 'jekyll-github-metadata', '~> 2.16', '>= 2.16.1'
 
 gem 'async', '~> 2.25'
 
-gem 'faraday-retry', '~> 2.3', '>= 2.3.2'
+gem 'faraday-retry', '~> 2.4'
 
 gem 'zeitwerk', '~> 2.7', '>= 2.7.3'
 
