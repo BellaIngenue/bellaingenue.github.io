@@ -1,11 +1,11 @@
 ---
-title: Borderline Syndrome RPG Maker MZ
+title: Borderline Syndrome
 layout: default
 parent: Games
 nav_order: 3
 ---
 
-# Borderline Syndrome!
+# Borderline Syndrome RPG Maker MZ!
 {:.no_toc}
 
 ## Table of contents
@@ -19,7 +19,7 @@ nav_order: 3
 # RPG Maker MZ Demo
 Borderline Syndrome is a video game I have created using RPG Maker MZ. It's not done, but the Demo is available for anyone curious!
 
-{: .important }
+{: .warning }
 This is a Horror/Mystery Game, meaning there will be horror elements that may not cater to everyone's needs. Please read through the INFORMATION section of the Itch.io page before proceeding!!
 
 [RPG Maker DEMO 🌕](https://bellaingenue.itch.io/borderline-syndrome-demo): The DEMO version of my current Project: Borderline Syndrome, a Horror/Mystery RPG Maker MZ Game!
