@@ -1,5 +1,5 @@
 ## Siena R | Github Portfolio and Website
-Hi there! My name is Siena, I'm a Cognitive Science graduate from UC San Diego. I graduated in March 2024 with my Bachelor's of Science in Cognitive Science w/ a Specialization in Clinical Aspects of Cognition! And since then I have worked a few Full-Time Positions! I am currently working on getting a Certification in Biostatistics!
+Hi there! My name is Siena, I'm a Cognitive Science graduate from UC San Diego. I graduated in March 2024 with my Bachelor's of Science in Cognitive Science w/ a Specialization in Clinical Aspects of Cognition! And since then I have worked a few Full-Time Positions! I am currently working on getting a Certification in Biostatistics and will be finished in November 2026!
 
 ### Simple Github Portfolio for Work and Projects
 Welcome to my Github Portfolio and where I will publish my work and projects that I can not host on Github. There are many projects I have included in this website. I have moved some of the projects around... Now we have a dedicated Data Projects Section, Fun Projects Section, School Work Section and a Games Section! 
