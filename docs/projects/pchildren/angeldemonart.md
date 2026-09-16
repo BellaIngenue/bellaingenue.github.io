@@ -23,7 +23,7 @@ Here you can find an archive of my old Art Portfolio/Website, AngelDemon Artwork
 ## Source Code:
 [Source Code Here!](https://github.com/BellaIngenue/AngelDemonArtwork): Locate the Github Repo for the Source Code
 
-### Want to try the Love Calculator?
+### Want to check out my Art?
 <button id="playbutton" onclick="window.location.href='/docs/projects/pchildren/art/angeldemon.html';">💛Interested in Checking out my Art? Click here!💛</button>
 
 ## Have any questions, comments, or concerns?
