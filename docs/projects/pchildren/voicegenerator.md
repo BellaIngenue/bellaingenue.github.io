@@ -22,9 +22,9 @@ Voice Generator is a simple CLI generator of the sound system used for dialogues
 But in case you want to download it and do it local, download the code from my Github here:
 
 [Voice Generator 🗣️](https://github.com/BellaIngenue/Voice-Generator): Github Project Link
+[Voice Generator Video](https://youtu.be/YWt1I6Zrqsc): Voice Generator Video Link with Installing/Setup!
 
 {: .important }
-
 - Python 3.10: Make sure you have the CORRECT Version, as Audioop no longer works with any others higher than 3.10.
 [Download 3.10 here](https://www.python.org/downloads/release/python-3100/): Download
   - Make sure to add it in the Environmental PATH

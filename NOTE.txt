@@ -1,5 +1,5 @@
-1. Bundle Install 
-2. Bundle Update
-3. Gem Install
-5. cd C:\Users\siena\OneDrive\Documents\GitHub\bellaingenue.github.io
-4. bundle exec jekyll serve
+1. cd C:\Users\siena\OneDrive\Documents\GitHub\bellaingenue.github.io
+2. Bundle Install 
+3. Bundle Update
+4. Gem Install 
+5. bundle exec jekyll serve
