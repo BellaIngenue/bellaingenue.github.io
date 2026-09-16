@@ -16,3 +16,5 @@ vendor/
 
 node_modules
 NOTE.txt
+NOTE.txt
+*.txt

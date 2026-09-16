@@ -1,0 +1,41 @@
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Love Calculator 🧮</title>
+	<!-- CUSTOM -->
+	<link rel="stylesheet" type="text/css" href="/assets/css/love.css">
+	<script type="text/javascript" src="/assets/js/love.js"></script>
+</head>
+<!-- BODY -->
+
+<body>
+	<div class="lovecalculator" id="lovecalculator">
+		<div class="calculator">
+			<center class="title">The Love Calculator</center>
+			<div class="names">
+				<div class="nameone" id="names">
+					<label for="nameone">Please Input Your 1st Name!</label>
+					<input type="text" id="urname" name="name1" placeholder="Example: Alice" maxlength="10" size="30">
+				</div>
+				<div class="nametwo" id="names">
+					<label for="nametwo">Please Input Your Crush's 1st Name!</label>
+					<input type="text" id="crushname" name="name2" placeholder="Example: Bob" maxlength="10" size="30">
+				</div>
+			</div>
+		</div>
+		<div class="calcuate">
+			<button onclick="performCalculation()">Calculate</button> <text>ERROR Check: <span id="error"></span></text>
+		</div>
+		<div class="output">
+			<center class="title">The Love Calculator</center>
+			<div class="squares">
+				<div class="square-with-text" id="square">
+					<p>Compatibility: </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</body>
