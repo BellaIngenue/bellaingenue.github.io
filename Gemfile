@@ -12,13 +12,13 @@ gem 'jekyll-default-layout', '~> 0.1.5'
 
 gem 'jekyll-github-metadata', '~> 2.16', '>= 2.16.1'
 
-gem 'async', '~> 2.25'
+gem 'async', '~> 2.35'
 
-gem 'faraday-retry', '~> 2.3', '>= 2.3.2'
+gem 'faraday-retry', '~> 2.3', '>= 2.4.0'
 
-gem 'zeitwerk', '~> 2.7', '>= 2.7.3'
+gem 'zeitwerk', '~> 2.7', '>= 2.7.4'
 
-gem "nokogiri", ">= 1.18.9"
+gem "nokogiri", ">= 1.18.10"
 
 gem "jekyll-include-cache", group: :jekyll_plugins
 

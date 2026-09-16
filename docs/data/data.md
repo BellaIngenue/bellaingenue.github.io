@@ -25,6 +25,7 @@ Welcome to my Github Portfolio and where I will publish my work and projects tha
 ## Some of the Notable Data Projects:
 - [Typology & Mental Health](https://github.com/BellaIngenue/TypologyAndMentalHealth): A Python + Jupyter Notebooks Data Project looking at Mental Health disorders and their correlation/causation to MBTI Types
 - [Media Usage & Sleep Quality](https://github.com/BellaIngenue/Media-Usage-and-Sleep): Based off an Undergrad project I took in CC in 2019 for my PSYC 255 course. Looked at the association between Media Usage (TV/Mobile/Tablet) and its effects on Sleep Quality using a Class Survey
+- [Media Usage & Sleep Quality](https://github.com/BellaIngenue/Media-Usage-And-Sleep-R): Based off an Undergrad project I took in CC in 2019 for my PSYC 255 course now in R!!
 - [(Unfinished)Divorce Rates & Big 5/OCEAN](https://github.com/BellaIngenue/Divorce_Rates_And_Big_5): There are TWO projects: 1 using MATLab and the other using Python + Jupyter Notebooks. Both looking at correlations between Divorce Rates and the corresponding individuals with differnet OCEAN/Big 5 types
 - [COGS 108 Data Science Project](https://bellaingenue.github.io/docs/schoolwork/schildren/cogs108/): This Project was dedicated to COGS 108: Data Science in Practice. It is a course held for Undergraduates at UCSD
 
