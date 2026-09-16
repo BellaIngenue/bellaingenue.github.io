@@ -1,129 +1,146 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Give+You+Glory&family=Macondo&family=Pacifico&family=Patrick+Hand&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 #ruffle {
-    background-color: white;
-    justify-content: center !important;
-    align-content: center !important;
-    border-top: 10px solid rgb(168, 168, 168);
-    border-bottom: 10px solid rgb(168, 168, 168);
-    display: flex;
+  background-color: white;
+  justify-content: center !important;
+  align-content: center !important;
+  border-top: 10px solid rgb(168, 168, 168);
+  border-bottom: 10px solid rgb(168, 168, 168);
+  display: flex;
 }
 
 h1 {
-    font-family: "Roboto";
-    font-size: 35px;
-    justify-content: center !important;
-    align-content: center !important;
-    width: 100%;
-    color:  black;
-    padding: 10px;
-    display: flex;
+  font-family: "Roboto";
+  font-size: 35px;
+  justify-content: center !important;
+  align-content: center !important;
+  width: 100%;
+  color: black;
+  padding: 10px;
+  display: flex;
 }
 
-.header{
-    background-color: white;
-    justify-content: center !important;
-    align-content: center !important;
-    padding: 20px 20px;
+.header {
+  background-color: white;
+  justify-content: center !important;
+  align-content: center !important;
+  padding: 20px 20px;
 }
+
 title {
   display: none;
 }
 
 #rufflebutton {
-    font-family: "Segoe UI";
-    width: 200px;
-    height: 50px;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
-    justify-content: center !important;
-    align-content: center !important;
-    display: flex;
-    cursor: pointer;
-    color: white;
-    transition: background-color 0.3s ease;
-    background-color: rgb(168, 168, 168);
+  font-family: "Segoe UI";
+  width: 200px;
+  height: 50px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  justify-content: center !important;
+  align-content: center !important;
+  display: flex;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s ease;
+  background-color: rgb(168, 168, 168);
 }
 
 #rufflebutton:hover {
-    background-color: rgb(140, 140, 140); /* Darker background color on hover */
+  background-color: rgb(140, 140, 140);
+  /* Darker background color on hover */
 
 }
 
 #tsparticles {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-  }
-  
-  
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+
 .nav {
-    text-decoration: none;
-    justify-content: center !important;
-    align-content: center !important;
-    width: 100%;
-    padding: 0px 0px;
-    font-family: "Roboto";
-    font-size: 45px;
-    border-bottom: 8px solid rgb(168, 168, 168);
-    background-color: white;
-  }
+  text-decoration: none;
+  justify-content: center !important;
+  align-content: center !important;
+  width: 100%;
+  padding: 0px 0px;
+  font-family: "Roboto";
+  font-size: 45px;
+  border-bottom: 8px solid rgb(168, 168, 168);
+  background-color: white;
+}
 
-  .nav ul {
-    justify-content: center !important;
-    align-content: center !important;
-    width: 100%;
-      
-  }
+.nav ul {
+  justify-content: center !important;
+  align-content: center !important;
+  width: 100%;
 
-  a {
-    text-decoration: none !important;
-    color: rgb(168, 168, 168) !important;
-    width: 100%;
-    padding: 0px 0px;
-  }
-  
-  a:hover {
-    text-decoration: none;
-    color: rgb(140, 140, 140) !important;
-    width: 100%;
-    padding: 0px 0px;
-  }
-  
-  
+}
+
+a {
+  text-decoration: none !important;
+  color: rgb(168, 168, 168) !important;
+  width: 100%;
+  padding: 0px 0px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(140, 140, 140) !important;
+  width: 100%;
+  padding: 0px 0px;
+}
+
+
 ul {
-    display: flex;
-    text-decoration: none;
-    justify-content: center;
-  }
-  
-  li {
-    text-decoration: none;
-    list-style-type: none;
-    padding: 30px;
-  }
-  
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 30px;
+}
+
 body {
-    font-weight: 100;
-    background-color: white;
-  }
-  
+  font-weight: 100;
+  background-color: white;
+}
+
 .logo {
-      width: 100px;
-      margin-top: -10px;
-      display: flex;
-      justify-content: center;
-      border: 2px solid black;
-      box-sizing: border-box;
-      border-radius: 200px;
-      object-fit: cover;
-  }
-      
+  width: 100px;
+  margin-top: -10px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  box-sizing: border-box;
+  border-radius: 200px;
+  object-fit: cover;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,423 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Give+You+Glory&family=Macondo&family=Pacifico&family=Patrick+Hand&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Hachi+Maru+Pop&family=Itim&family=Lilita+One&display=swap');
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+    /*========== Colors ==========*/
+    --first-color: #a57f60;
+    --text-color: #fff;
+    --text-color-black: hsl(30, 8%, 15%);
+    --swiper-navigation-color: #bf5065;
+
+    /*========== Font and typography ==========*/
+    --body-font: "Comfortaa";
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+}
+
+/* Responsive typography */
+@media screen and (min-width: 1024px) {
+    :root {
+        --h3-font-size: 1.125rem;
+        --small-font-size: 0.875rem;
+        --smaller-font-size: 0.813rem;
+    }
+}
+
+/*=============== BASE ===============*/
+
+body {
+    background-image: url("/assets/images/background.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    margin: auto;
+}
+
+.main {
+    display: flex;
+    justify-content: center !important;
+    align-content: center !important;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    max-height: 800px;
+    max-width: 1000px;
+    padding: 0px;
+    margin: auto;
+    background-color: #d9c2ad;
+    padding: 25px 15px;
+
+}
+
+.nav {
+    text-decoration: none;
+    text-align: center;
+    justify-content: center !important;
+    align-content: center !important;
+    width: 100%;
+    margin: auto;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    padding: 10px 0px 0px 0px;
+    font-family: "Itim";
+    font-size: 50px;
+    border-bottom: 8px solid #a57f60;
+    text-align: center;
+    background-color: #d9c2ad;
+}
+
+.nav-table {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-content: center !important;
+    text-align: center;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    justify-content: center !important;
+    align-items: center;
+    align-content: center !important;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    justify-content: center !important;
+    align-content: center !important;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: -10px;
+    margin-bottom: -20px;
+    text-align: center;
+    min-width: 100px;
+}
+
+li a {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center !important;
+    align-content: center !important;
+    align-items: center;
+}
+
+img {
+    width: 100px;
+    display: block;
+    margin-top: -10px;
+    justify-content: center !important;
+    align-content: center !important;
+    align-items: center;
+    border: 2px solid #906d51;
+    text-align: center;
+    border-radius: 200px;
+}
+
+title {
+    display: flex;
+    justify-content: center !important;
+    align-content: center !important;
+    align-items: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: center !important;
+    align-content: center !important;
+
+}
+
+p {
+    color: #906D51;
+    font-size: 20px;
+    padding: 5px 0px;
+    justify-content: center !important;
+    align-content: center !important;
+    text-align: center !important;
+}
+
+.footer {
+    display: flex;
+    justify-content: center !important;
+    align-content: center !important;
+    font-family: "Itim";
+    padding: 20px 0px;
+    width: 100%;
+    color: #a57f60 !important;
+    font-size: 30px;
+    border-top: 8px solid #a57f60;
+    background-color: #d9c2ad;
+}
+
+.footer p {
+    font-family: "Itim";
+    justify-content: center !important;
+    color: #906d51 !important;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+a {
+    text-decoration: none !important;
+    color: #a57f60 !important;
+    width: 100%;
+    padding: 0px 0px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #906d51 !important;
+    width: 100%;
+    padding: 0px 0px;
+}
+
+#confetti {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+
+    left: 0px;
+    top: 0px;
+    z-index: 1000;
+    pointer-events: none;
+}
+
+.main-img {
+    width: 150px;
+    margin: 20px;
+    justify-content: center;
+    border: 2px solid #906d51;
+    border-radius: 200px;
+}
+
+.fa {
+    color: #bf5065;
+    font-size: 60px !important;
+    display: block;
+    text-decoration: none;
+}
+
+.fa:hover {
+    color: #AB3521 !important;
+    font-size: 60px;
+    text-decoration: none;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    color: #bf5065;
+}
+
+span {
+    font-family: "Itim";
+    margin-top: 30px;
+    font-size: 35px;
+    color: #906D51;
+}
+
+.but {
+    display: flex;
+    justify-content: center !important;
+    align-content: center !important;
+
+}
+
+.button-53 {
+    background-color: #906D51;
+    border: 0 solid #e5e7eb;
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    justify-content: center !important;
+    align-content: center !important;
+    font-family: "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "Noto Sans",
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+    padding: 0.75rem 1.65rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none #000000 solid;
+    width: 100%;
+    max-width: 400px;
+    cursor: pointer;
+    user-select: none;
+    touch-action: manipulation;
+}
+
+.button-53:focus {
+    outline: 0;
+}
+
+.button-53:after {
+    content: "";
+    position: absolute;
+    border: 1px solid #000000;
+    bottom: 4px;
+    left: 4px;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+}
+
+.button-53:hover:after {
+    bottom: 2px;
+    left: 2px;
+}
+
+/* For medium devices */
+@media screen and (max-width: 1024px) {
+
+
+    center {
+        width: 100%;
+        height: 100%;
+    }
+
+    .nav {
+        position: relative;
+        padding: 3px 20px;
+        width: 100%;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center !important;
+        font-family: "Itim";
+        padding: 30px 10px;
+        width: 100%;
+        height: 100%;
+        color: #906D51 !important;
+        font-size: 20px;
+        border-top: 8px solid #906D51;
+        background-color: #f2dfce;
+        align-content: center !important;
+    }
+
+
+    #confetti {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        left: 0px;
+        top: 25px;
+        z-index: 1000;
+        pointer-events: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: #a57f60;
+        width: 100%;
+        font-size: 15px;
+        padding: 0px 0px;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: #906D51;
+        width: 100%;
+        font-size: 15px;
+        padding: 0px 0px;
+    }
+
+    a:link {
+        text-decoration: none;
+        color: #906D51;
+        font-size: 15px;
+    }
+
+    ul {
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+    }
+
+    li {
+        text-decoration: none;
+        list-style-type: none;
+        color: #906D51;
+        padding: 10px;
+    }
+
+    .text {
+        font-size: 32px;
+        padding: 32px 16px;
+        margin-top: 10px;
+    }
+
+    .button-53 {
+        padding: 0.75rem 3rem;
+        font-size: 1.25rem;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        border: 2.2px solid #906D51;
+        border-radius: 20px;
+    }
+
+    .main {
+        padding: 60px 15px;
+    }
+
+    .footer p {
+        font-family: "Itim";
+        justify-content: center !important;
+        color: #a57f60 !important;
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .fa {
+        color: #bf5065;
+        font-size: 40px !important;
+        display: flex;
+        text-decoration: none;
+    }
+
+    .fa:hover {
+        color: #AB3521 !important;
+        font-size: 40px;
+        display: flex;
+        text-decoration: none;
+    }
+
+    .main-img {
+        width: 150px;
+        margin: 20px;
+        justify-content: center;
+        border: 2px solid #AB3521;
+        box-sizing: border-box;
+        border-radius: 200px;
+        object-fit: cover;
+    }
+}
