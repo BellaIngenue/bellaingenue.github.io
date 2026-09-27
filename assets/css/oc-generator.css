@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&family=Just+Me+Again+Down+Here&family=Patrick+Hand+SC&family=Playpen+Sans:wght@100..800&family=Short+Stack&display=swap');
+
+body {
+    margin: 0;
+    background-color: #fffbea;
+    color: #8d010f;
+    font-family: Patrick Hand SC, sans-serif;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 3rem;
+    color: #c50014;
+    margin-bottom: 0px;
+}
+
+.intro p {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #8d010f;
+}
+
+.intro img {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+button img {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+    vertical-align: middle;
+    align-items: center;
+    object-fit: contain;
+}
+
+button {
+    width: 100%;
+    background-color: #8d010f;
+    border: 10px;
+    color: white;
+    padding: 15px 30px;
+    align-items: center;
+    display: inline-flex;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+button:hover {
+    background-color: #c50014;
+    box-shadow: 0 8px 16px 0 #8d010f;
+}
+
+.main-panel {
+    position: relative;
+    z-index: 1;
+
+    max-width: 700px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 40px;
+    box-sizing: border-box;
+
+    background-color: #fabfc4;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 10px 12px;
+    box-sizing: border-box;
+
+    border: 2px solid #e87582;
+    border-radius: 12px;
+
+    background-color: #fff8f5;
+    color: #d65f6d;
+
+    font-size: 1.3rem;
+    font-weight: bolder;
+    font-family: inherit;
+
+    cursor: pointer;
+}
+
+.form-group select:hover {
+    border-color: #8d010f;
+}
+
+.form-group select:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5);
+}
+
+.strawberry {
+    position: absolute;
+    width: 100px;
+}
+
+.strawberry-1 {
+    top: 40px;
+    left: 20px;
+    transform: rotate(-15deg);
+}
+
+.strawberry-2 {
+    top: 180px;
+    right: 30px;
+    transform: rotate(12deg);
+}
+
+.strawberry-3 {
+    bottom: 80px;
+    left: 40px;
+    width: 80px;
+    transform: rotate(20deg);
+}
+
+.strawberry-4 {
+    bottom: 30px;
+    right: 20px;
+    width: 120px;
+    transform: rotate(-10deg);
+}
+
+.strawberries {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.character-card {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 30px;
+    box-sizing: border-box;
+
+    background-color: #fff8f5;
+
+    border: 4px solid #8d010f;
+    border-radius: 25px;
+
+    box-shadow: 0 8px 0 #8d010f;
+
+    color: #c50014;
+
+    text-align: center;
+
+    opacity: 0;
+    transform: translateY(30px);
+
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.character-card.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card-header h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    font-size: 3rem;
+    color: #8d010f;
+}
+
+.oc-illustration {
+    width: 280px;
+    height: 280px;
+    margin: 0 auto 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #f7d7d9;
+
+    border-radius: 50%;
+
+    overflow: hidden;
+}
+
+.oc-illustration img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+
+.oc-type {
+    margin: 10px 0 25px;
+
+    font-size: 2rem;
+    color: #8d010f;
+}
+
+.oc-details {
+    text-align: left;
+
+    padding: 15px 20px;
+
+    background-color: #fff0f0;
+
+    border-radius: 15px;
+    font-size: 1.5rem;
+}
+
+.oc-details p {
+    margin: 10px 0;
+}
+
+.oc-details strong {
+    color: #8d010f;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 30px auto;
+
+    opacity: 1;
+    transform: translateY(0);
+
+    overflow: hidden;
+
+    transition: opacity 0.5s ease,
+    transform 0.5s ease,
+    max-height 0.5s ease,
+    margin 0.5s ease;
+}
+
+.form-container.hide {
+    opacity: 0;
+    transform: translateY(-20px);
+
+    max-height: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    pointer-events: none;
+}
+
+#result {
+    min-height: 20px;
+    transition: margin-top 0.5s ease;
+}
+
+.back-button {
+    margin-top: 25px;
+    padding: 10px 20px;
+
+    border: 2px solid #e87582;
+    border-radius: 15px;
+
+    background-color: #ffffff;
+    color: #d65f6d;
+
+    font-family: inherit;
+    font-size: 2rem;
+    font-weight: bolder;
+
+    cursor: pointer;
+
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.back-button:hover {
+    background-color: #ffe5e7;
+    transform: translateY(-2px);
+}
+
+#generateButton.hide {
+    display: none;
+}

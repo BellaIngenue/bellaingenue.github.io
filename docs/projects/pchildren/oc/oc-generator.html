@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>OC Generator</title>
+    <link rel="stylesheet" href="/assets/css/oc-generator.css">
+</head>
+
+<body>
+    <div class="strawberries">
+        <img class="strawberry strawberry-1" src="/assets/images/strawberry.png" alt="">
+        <img class="strawberry strawberry-2" src="/assets/images/strawberry.png" alt="">
+        <img class="strawberry strawberry-3" src="/assets/images/strawberry.png" alt="">
+        <img class="strawberry strawberry-4" src="/assets/images/strawberry.png" alt="">
+    </div>
+    <main class="main-panel">
+        <header class="intro">
+            <img src="/assets/images/OCMaker.png" alt="Original Character Maker!!">
+            <p>Create an OC using your personal traits!!</p>
+        </header>
+        <div class="form-container">
+            <div class="form-group">
+                <label for="ocType">OC Type:</label>
+                <select id="ocType">
+                    <option value="Fairy">Fairy</option>
+                    <option value="Witch">Witch</option>
+                    <option value="MagicalGirl">Magical Girl</option>
+                    <option value="FoodGirl">Food Girl</option>
+                    <option value="Mermaid">Mermaid</option>
+                    <option value="Occult">Occult</option>
+                    <option value="Surprise Me!">Surprise Me!</option>
+                </select>
+            </div>
+
+            <br>
+            <div class="form-group">
+                <label for="eyeColor">Eye Color:</label>
+                <select id="eyeColor">
+                    <option value="Blue">Blue</option>
+                    <option value="Green">Green</option>
+                    <option value="Brown">Brown</option>
+                    <option value="Black">Black</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <br>
+
+            <div class="form-group">
+                <label for="hairColor">Hair Color:</label>
+                <select id="hairColor">
+                    <option value="Brown">Brown</option>
+                    <option value="Blonde">Blonde</option>
+                    <option value="Black">Black</option>
+                    <option value="Red">Red</option>
+                    <option value="Gray">Gray</option>
+                    <option value="Dyed">Dyed</option>
+                </select>
+            </div>
+
+            <br>
+
+            <div class="form-group">
+                <label for="personality">Personality:</label>
+                <select id="personality">
+                    <option value="Calm">Calm</option>
+                    <option value="Chaotic">Chaotic</option>
+                    <option value="Extrovert">Extrovert</option>
+                    <option value="Introvert">Introvert</option>
+                    <option value="Normal">Normal</option>
+                </select>
+            </div>
+            <br>
+
+            <div class="form-group">
+                <label for="siblings">Siblings:</label>
+                <select id="siblings">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3+</option>
+                </select>
+            </div>
+            <br>
+
+            <div class="form-group">
+                <label for="animal">Pets/Favorite Animal:</label>
+                <select id="animal">
+                    <option value="None">None</option>
+                    <option value="Dogs">Dogs</option>
+                    <option value="Cats">Cats</option>
+                    <option value="Reptiles">Reptiles</option>
+                    <option value="Birds">Birds</option>
+                    <option value="Rodents">Rodents</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <br>
+
+            <div class="form-group">
+                <label for="favoriteColor">Favorite Color:</label>
+                <select id="favoriteColor">
+                    <option value="Red">Red</option>
+                    <option value="Orange">Orange</option>
+                    <option value="Yellow">Yellow</option>
+                    <option value="Green">Green</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Indigo">Indigo</option>
+                    <option value="Violet">Violet</option>
+                    <option value="Pink">Pink</option>
+                    <option value="Black">Black</option>
+                    <option value="White">White</option>
+                    <option value="Brown">Brown</option>
+                    <option value="Gray">Gray</option>
+                </select>
+            </div>
+            <br>
+
+            <div class="form-group">
+                <label for="favoriteFood">Favorite Food:</label>
+                <select id="favoriteFood">
+                    <option value="Fruits">Fruits</option>
+                    <option value="Veggies">Veggies</option>
+                    <option value="Grains">Grains</option>
+                    <option value="Dairy">Dairy</option>
+                    <option value="Sweets">Sweets</option>
+                    <option value="Protein">Protein</option>
+                </select>
+            </div>
+            <br>
+
+            <div class="form-group">
+                <label for="season">Season Born:</label>
+                <select id="season">
+                    <option value="Summer">Summer</option>
+                    <option value="Spring">Spring</option>
+                    <option value="Fall">Fall</option>
+                    <option value="Winter">Winter</option>
+                </select>
+            </div>
+            <br>
+
+            <button id="generateButton" class="icon-button">
+                <img src="/assets/images/generate.png" alt="Generate OC">
+            </button>
+
+        </div>
+        <div id="result"></div>
+    </main>
+    <script src="/assets/js/oc-generator.js"></script>
+</body>
+
+</html>
