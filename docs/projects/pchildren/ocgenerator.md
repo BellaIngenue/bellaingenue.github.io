@@ -23,7 +23,7 @@ A really cute web-based program that I built for artists, illustrators or even w
 ## Source Code:
 [Source Code Here!](https://github.com/BellaIngenue/OC-Generator): Locate the Github Repo for the Source Code
 
-### Want to check out my Art?
+### Want to create your own OC?
 <button id="playbutton" onclick="window.location.href='/docs/projects/pchildren/oc/oc-generator.html';">💛Interested in Creating an OC? Click here!💛</button>
 
 ## Have any questions, comments, or concerns?
