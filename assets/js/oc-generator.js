@@ -4,9 +4,13 @@ const ocTypeInput = document.getElementById("ocType");
 const generateButton = document.getElementById("generateButton");
 const result = document.getElementById("result");
 const formContainer = document.querySelector(".form-container");
+const generateSound = new Audio("/assets/audio/generator-sound.mp3");
+const backSound = new Audio("/assets/audio/back-sound.mp3");
 
 
 generateButton.addEventListener("click", function () {
+    generateSound.currentTime = 0;
+    generateSound.play();
     let ocType = ocTypeInput.value;
 
     if (ocType === "Surprise Me!") {
@@ -66,6 +70,8 @@ generateButton.addEventListener("click", function () {
     const backButton = document.getElementById("backButton");
 
     backButton.addEventListener("click", function () {
+        backSound.currentTime = 0;
+        backSound.play();
         result.innerHTML = "";
         formContainer.classList.remove("hide");
     });
