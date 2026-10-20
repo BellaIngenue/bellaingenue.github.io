@@ -52,7 +52,7 @@ GEM
       bigdecimal
       rake (~> 13.3)
     hashery (2.1.2)
-    html-proofer (5.1.1)
+    html-proofer (5.2.3)
       addressable (~> 2.3)
       async (~> 2.1)
       benchmark (~> 0.5)
@@ -65,7 +65,7 @@ GEM
     http_parser.rb (0.8.1)
     i18n (1.15.2)
       concurrent-ruby (~> 1.0)
-    io-event (1.22.1)
+    io-event (1.22.3)
     jekyll (4.4.1)
       addressable (~> 2.4)
       base64 (~> 0.2)
@@ -173,7 +173,7 @@ PLATFORMS
 DEPENDENCIES
   async (~> 2.46)
   faraday-retry (~> 2.3, >= 2.4.0)
-  html-proofer (~> 5.1.1)
+  html-proofer (~> 5.2.3)
   jekyll (~> 4.4.1)
   jekyll-default-layout (~> 0.2.1)
   jekyll-github-metadata (~> 2.16, >= 2.16.1)
