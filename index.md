@@ -35,7 +35,7 @@ Welcome to my Github Portfolio and where I will publish my work and projects tha
 
 #### Email and other Links
 - [Email📫](mailto:sienasrivera@gmail.com)
-- [School Portfolio📚](https://www.sienasrivera.website/home)
+- [Academic Portfolio📚](https://www.sienasrivera.website/home)
   
 ### About the Portfolio
 Siena's Portfolio &copy; 2024-2026 by [Siena Rivera](https://sienasrivera.website)
